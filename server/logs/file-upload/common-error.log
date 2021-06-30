@@ -1,0 +1,131 @@
+2021-06-23 15:38:50,118 ERROR 5228 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 5228
+hostname: DESKTOP-69A3UE4
+
+2021-06-23 16:39:02,357 ERROR 14064 [-/127.0.0.1/-/17ms POST /api/upload] nodejs.ENOENTError: ENOENT: no such file or directory, open 'C:\Users\10525\Desktop\egg-file-upload\app\public\uploads\test.js'
+ENOENTError: ENOENT: no such file or directory, open 'C:\Users\10525\Desktop\egg-file-upload\app\public\uploads\test.js'
+errno: -4058
+code: "ENOENT"
+syscall: "open"
+path: "C:\\Users\\10525\\Desktop\\egg-file-upload\\app\\public\\uploads\\test.js"
+name: "ENOENTError"
+pid: 14064
+hostname: DESKTOP-69A3UE4
+
+2021-06-23 16:41:12,858 ERROR 16976 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 16976
+hostname: DESKTOP-69A3UE4
+
+2021-06-23 16:41:18,546 ERROR 14952 [-/127.0.0.1/-/17ms POST /api/upload] nodejs.ENOENTError: ENOENT: no such file or directory, open 'C:\Users\10525\Desktop\egg-file-upload\app\public\uploads\test.js'
+ENOENTError: ENOENT: no such file or directory, open 'C:\Users\10525\Desktop\egg-file-upload\app\public\uploads\test.js'
+errno: -4058
+code: "ENOENT"
+syscall: "open"
+path: "C:\\Users\\10525\\Desktop\\egg-file-upload\\app\\public\\uploads\\test.js"
+name: "ENOENTError"
+pid: 14952
+hostname: DESKTOP-69A3UE4
+
+2021-06-23 17:47:51,133 ERROR 7916 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 7916
+hostname: DESKTOP-69A3UE4
+
+2021-06-29 18:02:09,924 ERROR 6336 [-/::1/-/2298ms GET /] nodejs.EDNSError: getaddrinfo ENOTFOUND qq
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)
+errno: "ENOTFOUND"
+code: "EDNS"
+syscall: "getaddrinfo"
+hostname: "qq"
+command: "CONN"
+name: "EDNSError"
+pid: 6336
+hostname: DESKTOP-69A3UE4
+
+2021-06-30 09:33:14,377 ERROR 4984 [-/::1/-/2295ms GET /] nodejs.EDNSError: getaddrinfo ENOTFOUND qq
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)
+errno: "ENOTFOUND"
+code: "EDNS"
+syscall: "getaddrinfo"
+hostname: "qq"
+command: "CONN"
+name: "EDNSError"
+pid: 4984
+hostname: DESKTOP-69A3UE4
+
+2021-06-30 09:34:52,123 ERROR 15860 [-/undefined/-/21333ms GET /] nodejs.ESOCKETError: connect ETIMEDOUT 13.49.22.0:465
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1107:14)
+errno: "ETIMEDOUT"
+code: "ESOCKET"
+syscall: "connect"
+address: "13.49.22.0"
+port: 465
+command: "CONN"
+headerSent: true
+name: "ESOCKETError"
+pid: 15860
+hostname: DESKTOP-69A3UE4
+
+2021-06-30 09:35:02,024 ERROR 15860 [-/::1/-/21044ms GET /] nodejs.ESOCKETError: connect ETIMEDOUT 13.49.22.0:465
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1107:14)
+errno: "ETIMEDOUT"
+code: "ESOCKET"
+syscall: "connect"
+address: "13.49.22.0"
+port: 465
+command: "CONN"
+name: "ESOCKETError"
+pid: 15860
+hostname: DESKTOP-69A3UE4
+
+2021-06-30 09:38:46,191 ERROR 1732 [-/::1/-/274ms GET /] nodejs.EENVELOPEError: Mail command failed: 502 Invalid paramenters
+    at SMTPConnection._formatError (C:\Users\10525\Desktop\egg-demo\node_modules\nodemailer\lib\smtp-connection\index.js:774:19)
+    at SMTPConnection._actionMAIL (C:\Users\10525\Desktop\egg-demo\node_modules\nodemailer\lib\smtp-connection\index.js:1548:34)
+    at SMTPConnection._responseActions.push.str (C:\Users\10525\Desktop\egg-demo\node_modules\nodemailer\lib\smtp-connection\index.js:1030:18)
+    at SMTPConnection._processResponse (C:\Users\10525\Desktop\egg-demo\node_modules\nodemailer\lib\smtp-connection\index.js:937:20)
+    at SMTPConnection._onData (C:\Users\10525\Desktop\egg-demo\node_modules\nodemailer\lib\smtp-connection\index.js:739:14)
+    at TLSSocket.SMTPConnection._onSocketData.chunk (C:\Users\10525\Desktop\egg-demo\node_modules\nodemailer\lib\smtp-connection\index.js:189:44)
+    at TLSSocket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at TLSSocket.Readable.push (_stream_readable.js:224:10)
+code: "EENVELOPE"
+response: "502 Invalid paramenters"
+responseCode: 502
+command: "MAIL FROM"
+name: "EENVELOPEError"
+pid: 1732
+hostname: DESKTOP-69A3UE4
+
+2021-06-30 14:13:19,296 ERROR 15088 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 15088
+hostname: DESKTOP-69A3UE4
+
+2021-06-30 15:17:18,596 ERROR 15088 nodejs.unhandledExceptionError: read ECONNRESET
+    at TCP.onStreamRead (internal/stream_base_commons.js:111:27)
+errno: "ECONNRESET"
+code: "ECONNRESET"
+syscall: "read"
+name: "unhandledExceptionError"
+pid: 15088
+hostname: DESKTOP-69A3UE4
+

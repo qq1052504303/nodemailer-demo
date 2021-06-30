@@ -1,0 +1,542 @@
+2021-06-23 15:46:27,493 WARN 15524 [-/::1/-/6ms POST /api/upload] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2021-06-23 15:46:27,496 WARN 15524 [-/::1/-/8ms POST /api/upload] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (C:\Users\10525\Desktop\egg-file-upload\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\10525\Desktop\egg-file-upload\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\10525\Desktop\egg-file-upload\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\10525\Desktop\egg-file-upload\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\10525\Desktop\egg-file-upload\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\10525\Desktop\egg-file-upload\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "missing csrf token"
+pid: 15524
+hostname: DESKTOP-69A3UE4
+
+2021-06-23 15:47:02,908 WARN 17668 [-/::1/-/5ms POST /api/upload] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2021-06-23 15:47:02,911 WARN 17668 [-/::1/-/8ms POST /api/upload] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\10525\Desktop\egg-file-upload\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\10525\Desktop\egg-file-upload\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\10525\Desktop\egg-file-upload\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\10525\Desktop\egg-file-upload\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\10525\Desktop\egg-file-upload\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\10525\Desktop\egg-file-upload\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 17668
+hostname: DESKTOP-69A3UE4
+
+2021-06-23 15:47:41,787 WARN 16268 [-/::1/-/4ms POST /api/upload] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2021-06-23 15:47:41,789 WARN 16268 [-/::1/-/7ms POST /api/upload] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (C:\Users\10525\Desktop\egg-file-upload\node_modules\koa\lib\context.js:97:11)
+    at Object.assertCsrf (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-security\app\extend\context.js:162:32)
+    at csrf (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-security\lib\middlewares\csrf.js:33:9)
+    at dispatch (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-security\node_modules\koa-compose\index.js:42:32)
+    at C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-security\node_modules\koa-compose\index.js:34:12
+    at dispatch (C:\Users\10525\Desktop\egg-file-upload\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at session (C:\Users\10525\Desktop\egg-file-upload\node_modules\koa-session\index.js:41:13)
+    at dispatch (C:\Users\10525\Desktop\egg-file-upload\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (C:\Users\10525\Desktop\egg-file-upload\node_modules\koa-override\index.js:38:12)
+    at dispatch (C:\Users\10525\Desktop\egg-file-upload\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+message: "invalid csrf token"
+pid: 16268
+hostname: DESKTOP-69A3UE4
+
+2021-06-23 15:51:44,742 WARN 17704 [-/::1/-/7ms POST /api/upload] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (C:\Users\10525\Desktop\egg-file-upload\node_modules\koa\lib\context.js:97:11)
+    at Object.multipart (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-multipart\app\extend\context.js:179:17)
+    at Object.getFileStream (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-multipart\app\extend\context.js:227:24)
+    at HomeController.index (C:\Users\10525\Desktop\egg-file-upload\app\controller\upload.js:21:30)
+    at Object.callFn (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\10525\Desktop\egg-file-upload\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\10525\Desktop\egg-file-upload\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\10525\Desktop\egg-file-upload\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\10525\Desktop\egg-file-upload\node_modules\koa-compose\index.js:45:18)
+message: "Content-Type must be multipart/*"
+pid: 17704
+hostname: DESKTOP-69A3UE4
+
+2021-06-23 15:52:06,965 WARN 1436 [-/::1/-/7ms POST /api/upload] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (C:\Users\10525\Desktop\egg-file-upload\node_modules\koa\lib\context.js:97:11)
+    at Object.multipart (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-multipart\app\extend\context.js:179:17)
+    at Object.getFileStream (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-multipart\app\extend\context.js:227:24)
+    at HomeController.index (C:\Users\10525\Desktop\egg-file-upload\app\controller\upload.js:21:30)
+    at Object.callFn (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\10525\Desktop\egg-file-upload\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\10525\Desktop\egg-file-upload\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\10525\Desktop\egg-file-upload\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\10525\Desktop\egg-file-upload\node_modules\koa-compose\index.js:45:18)
+message: "Content-Type must be multipart/*"
+pid: 1436
+hostname: DESKTOP-69A3UE4
+
+2021-06-23 15:53:50,723 WARN 7140 [-/::1/-/7ms POST /api/upload] nodejs.BadRequestError: Content-Type must be multipart/*
+    at Object.throw (C:\Users\10525\Desktop\egg-file-upload\node_modules\koa\lib\context.js:97:11)
+    at Object.multipart (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-multipart\app\extend\context.js:179:17)
+    at Object.getFileStream (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-multipart\app\extend\context.js:227:24)
+    at HomeController.index (C:\Users\10525\Desktop\egg-file-upload\app\controller\upload.js:21:30)
+    at Object.callFn (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-core\lib\utils\index.js:44:21)
+    at Object.classControllerMiddleware (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (C:\Users\10525\Desktop\egg-file-upload\node_modules\@eggjs\router\lib\utils.js:12:21)
+    at wrappedController (C:\Users\10525\Desktop\egg-file-upload\node_modules\@eggjs\router\lib\egg_router.js:322:18)
+    at dispatch (C:\Users\10525\Desktop\egg-file-upload\node_modules\koa-compose\index.js:44:32)
+    at next (C:\Users\10525\Desktop\egg-file-upload\node_modules\koa-compose\index.js:45:18)
+message: "Content-Type must be multipart/*"
+pid: 7140
+hostname: DESKTOP-69A3UE4
+
+2021-06-23 16:24:20,768 WARN 6032 [-/127.0.0.1/-/16ms POST /api/upload] nodejs.Error: Invalid filename: AllVer-today-CrashTop.csv
+    at checkFile (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-multipart\app.js:76:23)
+    at Busboy.onFile (C:\Users\10525\Desktop\egg-file-upload\node_modules\co-busboy\index.js:103:17)
+    at Busboy.emit (events.js:198:13)
+    at Busboy.emit (C:\Users\10525\Desktop\egg-file-upload\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (C:\Users\10525\Desktop\egg-file-upload\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (events.js:198:13)
+    at HeaderParser.<anonymous> (C:\Users\10525\Desktop\egg-file-upload\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (events.js:198:13)
+    at HeaderParser._finish (C:\Users\10525\Desktop\egg-file-upload\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (C:\Users\10525\Desktop\egg-file-upload\node_modules\dicer\lib\HeaderParser.js:40:12)
+status: 400
+pid: 6032
+hostname: DESKTOP-69A3UE4
+
+2021-06-23 16:24:45,806 WARN 6032 [-/127.0.0.1/-/3ms POST /api/upload] nodejs.Error: Invalid filename: AllVer-today-CrashTop.csv
+    at checkFile (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-multipart\app.js:76:23)
+    at Busboy.onFile (C:\Users\10525\Desktop\egg-file-upload\node_modules\co-busboy\index.js:103:17)
+    at Busboy.emit (events.js:198:13)
+    at Busboy.emit (C:\Users\10525\Desktop\egg-file-upload\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (C:\Users\10525\Desktop\egg-file-upload\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (events.js:198:13)
+    at HeaderParser.<anonymous> (C:\Users\10525\Desktop\egg-file-upload\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (events.js:198:13)
+    at HeaderParser._finish (C:\Users\10525\Desktop\egg-file-upload\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (C:\Users\10525\Desktop\egg-file-upload\node_modules\dicer\lib\HeaderParser.js:40:12)
+status: 400
+pid: 6032
+hostname: DESKTOP-69A3UE4
+
+2021-06-23 16:30:46,248 WARN 17068 [-/127.0.0.1/-/17ms POST /api/upload] nodejs.Error: Invalid filename: AllVer-today-CrashTop.csv
+    at checkFile (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-multipart\app.js:76:23)
+    at Busboy.onFile (C:\Users\10525\Desktop\egg-file-upload\node_modules\co-busboy\index.js:103:17)
+    at Busboy.emit (events.js:198:13)
+    at Busboy.emit (C:\Users\10525\Desktop\egg-file-upload\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (C:\Users\10525\Desktop\egg-file-upload\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (events.js:198:13)
+    at HeaderParser.<anonymous> (C:\Users\10525\Desktop\egg-file-upload\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (events.js:198:13)
+    at HeaderParser._finish (C:\Users\10525\Desktop\egg-file-upload\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (C:\Users\10525\Desktop\egg-file-upload\node_modules\dicer\lib\HeaderParser.js:40:12)
+status: 400
+pid: 17068
+hostname: DESKTOP-69A3UE4
+
+2021-06-23 16:32:33,232 WARN 3648 [-/127.0.0.1/-/17ms POST /api/upload] nodejs.Error: Invalid filename: AllVer-today-CrashTop.csv
+    at checkFile (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-multipart\app.js:76:23)
+    at Busboy.onFile (C:\Users\10525\Desktop\egg-file-upload\node_modules\co-busboy\index.js:103:17)
+    at Busboy.emit (events.js:198:13)
+    at Busboy.emit (C:\Users\10525\Desktop\egg-file-upload\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (C:\Users\10525\Desktop\egg-file-upload\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (events.js:198:13)
+    at HeaderParser.<anonymous> (C:\Users\10525\Desktop\egg-file-upload\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (events.js:198:13)
+    at HeaderParser._finish (C:\Users\10525\Desktop\egg-file-upload\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (C:\Users\10525\Desktop\egg-file-upload\node_modules\dicer\lib\HeaderParser.js:40:12)
+status: 400
+pid: 3648
+hostname: DESKTOP-69A3UE4
+
+2021-06-23 16:39:02,359 ERROR 14064 [-/127.0.0.1/-/17ms POST /api/upload] nodejs.ENOENTError: ENOENT: no such file or directory, open 'C:\Users\10525\Desktop\egg-file-upload\app\public\uploads\test.js'
+ENOENTError: ENOENT: no such file or directory, open 'C:\Users\10525\Desktop\egg-file-upload\app\public\uploads\test.js'
+errno: -4058
+code: "ENOENT"
+syscall: "open"
+path: "C:\\Users\\10525\\Desktop\\egg-file-upload\\app\\public\\uploads\\test.js"
+name: "ENOENTError"
+pid: 14064
+hostname: DESKTOP-69A3UE4
+
+2021-06-23 16:41:18,548 ERROR 14952 [-/127.0.0.1/-/17ms POST /api/upload] nodejs.ENOENTError: ENOENT: no such file or directory, open 'C:\Users\10525\Desktop\egg-file-upload\app\public\uploads\test.js'
+ENOENTError: ENOENT: no such file or directory, open 'C:\Users\10525\Desktop\egg-file-upload\app\public\uploads\test.js'
+errno: -4058
+code: "ENOENT"
+syscall: "open"
+path: "C:\\Users\\10525\\Desktop\\egg-file-upload\\app\\public\\uploads\\test.js"
+name: "ENOENTError"
+pid: 14952
+hostname: DESKTOP-69A3UE4
+
+2021-06-23 16:57:28,448 WARN 1852 [-/127.0.0.1/-/4ms POST /api/upload] nodejs.BadRequestError: Can't found upload file
+    at Object.throw (C:\Users\10525\Desktop\egg-file-upload\node_modules\koa\lib\context.js:97:11)
+    at Object.getFileStream (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-multipart\app\extend\context.js:233:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+message: "Can't found upload file"
+pid: 1852
+hostname: DESKTOP-69A3UE4
+
+2021-06-23 17:01:41,526 WARN 1852 [-/127.0.0.1/-/2ms POST /api/upload] nodejs.BadRequestError: Can't found upload file
+    at Object.throw (C:\Users\10525\Desktop\egg-file-upload\node_modules\koa\lib\context.js:97:11)
+    at Object.getFileStream (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-multipart\app\extend\context.js:233:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+message: "Can't found upload file"
+pid: 1852
+hostname: DESKTOP-69A3UE4
+
+2021-06-23 17:11:12,390 WARN 9560 [-/127.0.0.1/-/24ms POST /api/upload] nodejs.BadRequestError: Can't found upload file
+    at Object.throw (C:\Users\10525\Desktop\egg-file-upload\node_modules\koa\lib\context.js:97:11)
+    at Object.getFileStream (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-multipart\app\extend\context.js:233:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+message: "Can't found upload file"
+pid: 9560
+hostname: DESKTOP-69A3UE4
+
+2021-06-23 17:15:33,225 WARN 9560 [-/127.0.0.1/-/2ms POST /api/upload] nodejs.BadRequestError: Can't found upload file
+    at Object.throw (C:\Users\10525\Desktop\egg-file-upload\node_modules\koa\lib\context.js:97:11)
+    at Object.getFileStream (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-multipart\app\extend\context.js:233:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+message: "Can't found upload file"
+pid: 9560
+hostname: DESKTOP-69A3UE4
+
+2021-06-23 17:15:37,234 WARN 9560 [-/127.0.0.1/-/2ms POST /api/upload] nodejs.BadRequestError: Can't found upload file
+    at Object.throw (C:\Users\10525\Desktop\egg-file-upload\node_modules\koa\lib\context.js:97:11)
+    at Object.getFileStream (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-multipart\app\extend\context.js:233:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+message: "Can't found upload file"
+pid: 9560
+hostname: DESKTOP-69A3UE4
+
+2021-06-23 17:15:59,918 WARN 9560 [-/127.0.0.1/-/1ms POST /api/upload] nodejs.BadRequestError: Can't found upload file
+    at Object.throw (C:\Users\10525\Desktop\egg-file-upload\node_modules\koa\lib\context.js:97:11)
+    at Object.getFileStream (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-multipart\app\extend\context.js:233:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+message: "Can't found upload file"
+pid: 9560
+hostname: DESKTOP-69A3UE4
+
+2021-06-23 17:16:09,226 WARN 9560 [-/127.0.0.1/-/1ms POST /api/upload] nodejs.BadRequestError: Can't found upload file
+    at Object.throw (C:\Users\10525\Desktop\egg-file-upload\node_modules\koa\lib\context.js:97:11)
+    at Object.getFileStream (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-multipart\app\extend\context.js:233:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+message: "Can't found upload file"
+pid: 9560
+hostname: DESKTOP-69A3UE4
+
+2021-06-23 17:16:13,463 WARN 9560 [-/127.0.0.1/-/1ms POST /api/upload] nodejs.BadRequestError: Can't found upload file
+    at Object.throw (C:\Users\10525\Desktop\egg-file-upload\node_modules\koa\lib\context.js:97:11)
+    at Object.getFileStream (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-multipart\app\extend\context.js:233:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+message: "Can't found upload file"
+pid: 9560
+hostname: DESKTOP-69A3UE4
+
+2021-06-23 17:16:29,039 WARN 9560 [-/127.0.0.1/-/1ms POST /api/upload] nodejs.BadRequestError: Can't found upload file
+    at Object.throw (C:\Users\10525\Desktop\egg-file-upload\node_modules\koa\lib\context.js:97:11)
+    at Object.getFileStream (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-multipart\app\extend\context.js:233:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+message: "Can't found upload file"
+pid: 9560
+hostname: DESKTOP-69A3UE4
+
+2021-06-23 17:16:40,865 WARN 9560 [-/127.0.0.1/-/1ms POST /api/upload] nodejs.BadRequestError: Can't found upload file
+    at Object.throw (C:\Users\10525\Desktop\egg-file-upload\node_modules\koa\lib\context.js:97:11)
+    at Object.getFileStream (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-multipart\app\extend\context.js:233:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+message: "Can't found upload file"
+pid: 9560
+hostname: DESKTOP-69A3UE4
+
+2021-06-23 17:17:07,354 WARN 9560 [-/127.0.0.1/-/1ms POST /api/upload] nodejs.BadRequestError: Can't found upload file
+    at Object.throw (C:\Users\10525\Desktop\egg-file-upload\node_modules\koa\lib\context.js:97:11)
+    at Object.getFileStream (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-multipart\app\extend\context.js:233:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+message: "Can't found upload file"
+pid: 9560
+hostname: DESKTOP-69A3UE4
+
+2021-06-23 17:17:15,115 WARN 9560 [-/127.0.0.1/-/1ms POST /api/upload] nodejs.BadRequestError: Can't found upload file
+    at Object.throw (C:\Users\10525\Desktop\egg-file-upload\node_modules\koa\lib\context.js:97:11)
+    at Object.getFileStream (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-multipart\app\extend\context.js:233:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+message: "Can't found upload file"
+pid: 9560
+hostname: DESKTOP-69A3UE4
+
+2021-06-23 17:17:22,643 WARN 9560 [-/127.0.0.1/-/1ms POST /api/upload] nodejs.BadRequestError: Can't found upload file
+    at Object.throw (C:\Users\10525\Desktop\egg-file-upload\node_modules\koa\lib\context.js:97:11)
+    at Object.getFileStream (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-multipart\app\extend\context.js:233:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+message: "Can't found upload file"
+pid: 9560
+hostname: DESKTOP-69A3UE4
+
+2021-06-23 17:17:45,869 WARN 9560 [-/127.0.0.1/-/1ms POST /api/upload] nodejs.BadRequestError: Can't found upload file
+    at Object.throw (C:\Users\10525\Desktop\egg-file-upload\node_modules\koa\lib\context.js:97:11)
+    at Object.getFileStream (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-multipart\app\extend\context.js:233:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+message: "Can't found upload file"
+pid: 9560
+hostname: DESKTOP-69A3UE4
+
+2021-06-23 17:18:01,079 WARN 9560 [-/127.0.0.1/-/1ms POST /api/upload] nodejs.BadRequestError: Can't found upload file
+    at Object.throw (C:\Users\10525\Desktop\egg-file-upload\node_modules\koa\lib\context.js:97:11)
+    at Object.getFileStream (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-multipart\app\extend\context.js:233:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+message: "Can't found upload file"
+pid: 9560
+hostname: DESKTOP-69A3UE4
+
+2021-06-23 17:18:22,441 WARN 9560 [-/127.0.0.1/-/1ms POST /api/upload] nodejs.BadRequestError: Can't found upload file
+    at Object.throw (C:\Users\10525\Desktop\egg-file-upload\node_modules\koa\lib\context.js:97:11)
+    at Object.getFileStream (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-multipart\app\extend\context.js:233:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+message: "Can't found upload file"
+pid: 9560
+hostname: DESKTOP-69A3UE4
+
+2021-06-23 17:19:25,281 WARN 9560 [-/127.0.0.1/-/1ms POST /api/upload] nodejs.BadRequestError: Can't found upload file
+    at Object.throw (C:\Users\10525\Desktop\egg-file-upload\node_modules\koa\lib\context.js:97:11)
+    at Object.getFileStream (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-multipart\app\extend\context.js:233:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+message: "Can't found upload file"
+pid: 9560
+hostname: DESKTOP-69A3UE4
+
+2021-06-23 17:47:20,339 WARN 9560 [-/127.0.0.1/-/2ms POST /api/upload] nodejs.BadRequestError: Can't found upload file
+    at Object.throw (C:\Users\10525\Desktop\egg-file-upload\node_modules\koa\lib\context.js:97:11)
+    at Object.getFileStream (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-multipart\app\extend\context.js:233:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+message: "Can't found upload file"
+pid: 9560
+hostname: DESKTOP-69A3UE4
+
+2021-06-23 17:47:40,417 WARN 9560 [-/127.0.0.1/-/1ms POST /api/upload] nodejs.BadRequestError: Can't found upload file
+    at Object.throw (C:\Users\10525\Desktop\egg-file-upload\node_modules\koa\lib\context.js:97:11)
+    at Object.getFileStream (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-multipart\app\extend\context.js:233:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+message: "Can't found upload file"
+pid: 9560
+hostname: DESKTOP-69A3UE4
+
+2021-06-23 17:48:00,008 WARN 17896 [-/127.0.0.1/-/15ms POST /api/upload] nodejs.BadRequestError: Can't found upload file
+    at Object.throw (C:\Users\10525\Desktop\egg-file-upload\node_modules\koa\lib\context.js:97:11)
+    at Object.getFileStream (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-multipart\app\extend\context.js:233:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+message: "Can't found upload file"
+pid: 17896
+hostname: DESKTOP-69A3UE4
+
+2021-06-23 17:49:16,557 WARN 17896 [-/127.0.0.1/-/6ms POST /api/upload] nodejs.Error: Invalid filename: 周报.txt
+    at checkFile (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-multipart\app.js:76:23)
+    at Busboy.onFile (C:\Users\10525\Desktop\egg-file-upload\node_modules\co-busboy\index.js:103:17)
+    at Busboy.emit (events.js:198:13)
+    at Busboy.emit (C:\Users\10525\Desktop\egg-file-upload\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (C:\Users\10525\Desktop\egg-file-upload\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (events.js:198:13)
+    at HeaderParser.<anonymous> (C:\Users\10525\Desktop\egg-file-upload\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (events.js:198:13)
+    at HeaderParser._finish (C:\Users\10525\Desktop\egg-file-upload\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (C:\Users\10525\Desktop\egg-file-upload\node_modules\dicer\lib\HeaderParser.js:40:12)
+status: 400
+pid: 17896
+hostname: DESKTOP-69A3UE4
+
+2021-06-23 17:49:27,936 WARN 5800 [-/127.0.0.1/-/16ms POST /api/upload] nodejs.Error: Invalid filename: 周报.txt
+    at checkFile (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-multipart\app.js:76:23)
+    at Busboy.onFile (C:\Users\10525\Desktop\egg-file-upload\node_modules\co-busboy\index.js:103:17)
+    at Busboy.emit (events.js:198:13)
+    at Busboy.emit (C:\Users\10525\Desktop\egg-file-upload\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (C:\Users\10525\Desktop\egg-file-upload\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (events.js:198:13)
+    at HeaderParser.<anonymous> (C:\Users\10525\Desktop\egg-file-upload\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (events.js:198:13)
+    at HeaderParser._finish (C:\Users\10525\Desktop\egg-file-upload\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (C:\Users\10525\Desktop\egg-file-upload\node_modules\dicer\lib\HeaderParser.js:40:12)
+status: 400
+pid: 5800
+hostname: DESKTOP-69A3UE4
+
+2021-06-23 17:49:55,006 WARN 6796 [-/127.0.0.1/-/17ms POST /api/upload] nodejs.Error: Invalid filename: 周报.txt
+    at checkFile (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-multipart\app.js:76:23)
+    at Busboy.onFile (C:\Users\10525\Desktop\egg-file-upload\node_modules\co-busboy\index.js:103:17)
+    at Busboy.emit (events.js:198:13)
+    at Busboy.emit (C:\Users\10525\Desktop\egg-file-upload\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (C:\Users\10525\Desktop\egg-file-upload\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (events.js:198:13)
+    at HeaderParser.<anonymous> (C:\Users\10525\Desktop\egg-file-upload\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (events.js:198:13)
+    at HeaderParser._finish (C:\Users\10525\Desktop\egg-file-upload\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (C:\Users\10525\Desktop\egg-file-upload\node_modules\dicer\lib\HeaderParser.js:40:12)
+status: 400
+pid: 6796
+hostname: DESKTOP-69A3UE4
+
+2021-06-23 17:54:41,056 WARN 11456 [-/127.0.0.1/-/17ms POST /api/upload] nodejs.Error: Invalid filename: 中文.txt
+    at checkFile (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-multipart\app.js:76:23)
+    at Busboy.onFile (C:\Users\10525\Desktop\egg-file-upload\node_modules\co-busboy\index.js:103:17)
+    at Busboy.emit (events.js:198:13)
+    at Busboy.emit (C:\Users\10525\Desktop\egg-file-upload\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (C:\Users\10525\Desktop\egg-file-upload\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (events.js:198:13)
+    at HeaderParser.<anonymous> (C:\Users\10525\Desktop\egg-file-upload\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (events.js:198:13)
+    at HeaderParser._finish (C:\Users\10525\Desktop\egg-file-upload\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (C:\Users\10525\Desktop\egg-file-upload\node_modules\dicer\lib\HeaderParser.js:40:12)
+status: 400
+pid: 11456
+hostname: DESKTOP-69A3UE4
+
+2021-06-23 17:54:56,439 WARN 17948 [-/127.0.0.1/-/16ms POST /api/upload] nodejs.Error: Invalid filename: chine.txt
+    at checkFile (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-multipart\app.js:76:23)
+    at Busboy.onFile (C:\Users\10525\Desktop\egg-file-upload\node_modules\co-busboy\index.js:103:17)
+    at Busboy.emit (events.js:198:13)
+    at Busboy.emit (C:\Users\10525\Desktop\egg-file-upload\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (C:\Users\10525\Desktop\egg-file-upload\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (events.js:198:13)
+    at HeaderParser.<anonymous> (C:\Users\10525\Desktop\egg-file-upload\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (events.js:198:13)
+    at HeaderParser._finish (C:\Users\10525\Desktop\egg-file-upload\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (C:\Users\10525\Desktop\egg-file-upload\node_modules\dicer\lib\HeaderParser.js:40:12)
+status: 400
+pid: 17948
+hostname: DESKTOP-69A3UE4
+
+2021-06-23 17:55:40,720 WARN 4576 [-/127.0.0.1/-/17ms POST /api/upload] nodejs.Error: Invalid filename: chine.txt
+    at checkFile (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-multipart\app.js:76:23)
+    at Busboy.onFile (C:\Users\10525\Desktop\egg-file-upload\node_modules\co-busboy\index.js:103:17)
+    at Busboy.emit (events.js:198:13)
+    at Busboy.emit (C:\Users\10525\Desktop\egg-file-upload\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (C:\Users\10525\Desktop\egg-file-upload\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (events.js:198:13)
+    at HeaderParser.<anonymous> (C:\Users\10525\Desktop\egg-file-upload\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (events.js:198:13)
+    at HeaderParser._finish (C:\Users\10525\Desktop\egg-file-upload\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (C:\Users\10525\Desktop\egg-file-upload\node_modules\dicer\lib\HeaderParser.js:40:12)
+status: 400
+pid: 4576
+hostname: DESKTOP-69A3UE4
+
+2021-06-23 17:56:21,041 WARN 18220 [-/127.0.0.1/-/17ms POST /api/upload] nodejs.Error: Invalid filename: chine.txt
+    at checkFile (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-multipart\app.js:76:23)
+    at Busboy.onFile (C:\Users\10525\Desktop\egg-file-upload\node_modules\co-busboy\index.js:103:17)
+    at Busboy.emit (events.js:198:13)
+    at Busboy.emit (C:\Users\10525\Desktop\egg-file-upload\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (C:\Users\10525\Desktop\egg-file-upload\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (events.js:198:13)
+    at HeaderParser.<anonymous> (C:\Users\10525\Desktop\egg-file-upload\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (events.js:198:13)
+    at HeaderParser._finish (C:\Users\10525\Desktop\egg-file-upload\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (C:\Users\10525\Desktop\egg-file-upload\node_modules\dicer\lib\HeaderParser.js:40:12)
+status: 400
+pid: 18220
+hostname: DESKTOP-69A3UE4
+
+2021-06-23 17:57:48,735 WARN 10468 [-/127.0.0.1/-/16ms POST /api/upload] nodejs.Error: Invalid filename: 中文.txt
+    at checkFile (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-multipart\app.js:76:23)
+    at Busboy.onFile (C:\Users\10525\Desktop\egg-file-upload\node_modules\co-busboy\index.js:103:17)
+    at Busboy.emit (events.js:198:13)
+    at Busboy.emit (C:\Users\10525\Desktop\egg-file-upload\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (C:\Users\10525\Desktop\egg-file-upload\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (events.js:198:13)
+    at HeaderParser.<anonymous> (C:\Users\10525\Desktop\egg-file-upload\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (events.js:198:13)
+    at HeaderParser._finish (C:\Users\10525\Desktop\egg-file-upload\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (C:\Users\10525\Desktop\egg-file-upload\node_modules\dicer\lib\HeaderParser.js:40:12)
+status: 400
+pid: 10468
+hostname: DESKTOP-69A3UE4
+
+2021-06-23 17:57:57,624 WARN 10468 [-/127.0.0.1/-/2ms POST /api/upload] nodejs.Error: Invalid filename: chine.txt
+    at checkFile (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-multipart\app.js:76:23)
+    at Busboy.onFile (C:\Users\10525\Desktop\egg-file-upload\node_modules\co-busboy\index.js:103:17)
+    at Busboy.emit (events.js:198:13)
+    at Busboy.emit (C:\Users\10525\Desktop\egg-file-upload\node_modules\busboy\lib\main.js:38:33)
+    at PartStream.<anonymous> (C:\Users\10525\Desktop\egg-file-upload\node_modules\busboy\lib\types\multipart.js:213:13)
+    at PartStream.emit (events.js:198:13)
+    at HeaderParser.<anonymous> (C:\Users\10525\Desktop\egg-file-upload\node_modules\dicer\lib\Dicer.js:51:16)
+    at HeaderParser.emit (events.js:198:13)
+    at HeaderParser._finish (C:\Users\10525\Desktop\egg-file-upload\node_modules\dicer\lib\HeaderParser.js:68:8)
+    at SBMH.<anonymous> (C:\Users\10525\Desktop\egg-file-upload\node_modules\dicer\lib\HeaderParser.js:40:12)
+status: 400
+pid: 10468
+hostname: DESKTOP-69A3UE4
+
+2021-06-23 18:02:32,505 WARN 15056 [-/127.0.0.1/-/2ms POST /api/upload] nodejs.BadRequestError: Can't found upload file
+    at Object.throw (C:\Users\10525\Desktop\egg-file-upload\node_modules\koa\lib\context.js:97:11)
+    at Object.getFileStream (C:\Users\10525\Desktop\egg-file-upload\node_modules\egg-multipart\app\extend\context.js:233:19)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+message: "Can't found upload file"
+pid: 15056
+hostname: DESKTOP-69A3UE4
+
+2021-06-29 18:02:09,932 ERROR 6336 [-/::1/-/2298ms GET /] nodejs.EDNSError: getaddrinfo ENOTFOUND qq
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)
+errno: "ENOTFOUND"
+code: "EDNS"
+syscall: "getaddrinfo"
+hostname: "qq"
+command: "CONN"
+name: "EDNSError"
+pid: 6336
+hostname: DESKTOP-69A3UE4
+
+2021-06-30 09:33:14,379 ERROR 4984 [-/::1/-/2295ms GET /] nodejs.EDNSError: getaddrinfo ENOTFOUND qq
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:56:26)
+errno: "ENOTFOUND"
+code: "EDNS"
+syscall: "getaddrinfo"
+hostname: "qq"
+command: "CONN"
+name: "EDNSError"
+pid: 4984
+hostname: DESKTOP-69A3UE4
+
+2021-06-30 09:34:52,126 ERROR 15860 [-/undefined/-/21333ms GET /] nodejs.ESOCKETError: connect ETIMEDOUT 13.49.22.0:465
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1107:14)
+errno: "ETIMEDOUT"
+code: "ESOCKET"
+syscall: "connect"
+address: "13.49.22.0"
+port: 465
+command: "CONN"
+headerSent: true
+name: "ESOCKETError"
+pid: 15860
+hostname: DESKTOP-69A3UE4
+
+2021-06-30 09:35:02,026 ERROR 15860 [-/::1/-/21044ms GET /] nodejs.ESOCKETError: connect ETIMEDOUT 13.49.22.0:465
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1107:14)
+errno: "ETIMEDOUT"
+code: "ESOCKET"
+syscall: "connect"
+address: "13.49.22.0"
+port: 465
+command: "CONN"
+name: "ESOCKETError"
+pid: 15860
+hostname: DESKTOP-69A3UE4
+
+2021-06-30 09:38:46,195 ERROR 1732 [-/::1/-/274ms GET /] nodejs.EENVELOPEError: Mail command failed: 502 Invalid paramenters
+    at SMTPConnection._formatError (C:\Users\10525\Desktop\egg-demo\node_modules\nodemailer\lib\smtp-connection\index.js:774:19)
+    at SMTPConnection._actionMAIL (C:\Users\10525\Desktop\egg-demo\node_modules\nodemailer\lib\smtp-connection\index.js:1548:34)
+    at SMTPConnection._responseActions.push.str (C:\Users\10525\Desktop\egg-demo\node_modules\nodemailer\lib\smtp-connection\index.js:1030:18)
+    at SMTPConnection._processResponse (C:\Users\10525\Desktop\egg-demo\node_modules\nodemailer\lib\smtp-connection\index.js:937:20)
+    at SMTPConnection._onData (C:\Users\10525\Desktop\egg-demo\node_modules\nodemailer\lib\smtp-connection\index.js:739:14)
+    at TLSSocket.SMTPConnection._onSocketData.chunk (C:\Users\10525\Desktop\egg-demo\node_modules\nodemailer\lib\smtp-connection\index.js:189:44)
+    at TLSSocket.emit (events.js:198:13)
+    at addChunk (_stream_readable.js:288:12)
+    at readableAddChunk (_stream_readable.js:269:11)
+    at TLSSocket.Readable.push (_stream_readable.js:224:10)
+code: "EENVELOPE"
+response: "502 Invalid paramenters"
+responseCode: 502
+command: "MAIL FROM"
+name: "EENVELOPEError"
+pid: 1732
+hostname: DESKTOP-69A3UE4
+
